@@ -22,7 +22,7 @@ uses: actions/download-artifact@master with:
 name: dist
 - name: Deploy to Firebase
 uses: w9jds/firebase-action@master with:
-args: deploy --only hosting env:
+args: deploy --project groceryaxios --only hosting:
 FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 Reference:
 GitHub Actions for Firebase https://github.com/marketplace/actions/github-action-for-firebase
