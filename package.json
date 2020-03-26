@@ -15,6 +15,7 @@
     "node": "^13.10.1",
     "save": "^2.4.0",
     "vue": "^2.6.11",
+    "vue-chart.js": "^0.2.0",
     "vue-chartjs": "^3.5.0",
     "vue-resource": "^1.5.1",
     "vue-router": "^3.1.6"
